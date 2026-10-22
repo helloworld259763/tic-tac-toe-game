@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-ink: #07090e;
+  --color-panel: #0d121c;
+  --color-edge: #1d2638;
+  --color-x: #38e1ff;
+  --color-o: #ff7a9c;
+}
+
+html {
+  color-scheme: dark;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
